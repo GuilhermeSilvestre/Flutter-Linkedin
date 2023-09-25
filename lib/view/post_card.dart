@@ -85,29 +85,53 @@ class postCard extends StatelessWidget {
                   const SizedBox(
                     height: 13,
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  Wrap(
                     children: <Widget>[
                       const Icon(
                         Icons.favorite,
                         color: Colors.red,
+                        size: 20,
                       ),
-                      Text('Likes: ${posts[index].numLikes}'),
+                      Text(
+                        'Likes: ${posts[index].numLikes}',
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
                       const Icon(
                         Icons.thumb_down,
                         color: Color.fromARGB(255, 77, 103, 121),
+                        size: 20,
                       ),
-                      Text('Dislikes: ${posts[index].numDislikes}'),
+                      Text(
+                        'Dislikes: ${posts[index].numDislikes}',
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
                       const Icon(
                         Icons.chat_sharp,
                         color: Color.fromARGB(255, 129, 191, 233),
+                        size: 20,
                       ),
-                      Text('Comments: ${posts[index].numComments}'),
+                      Text(
+                        'Comments: ${posts[index].numComments}',
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
                       const Icon(
                         Icons.share,
                         color: Color.fromARGB(255, 103, 228, 196),
+                        size: 20,
                       ),
-                      Text('Shares: ${posts[index].numShares}'),
+                      Text(
+                        'Shares: ${posts[index].numShares}',
+                        style: const TextStyle(fontSize: 12),
+                      ),
                     ],
                   ),
                 ],
