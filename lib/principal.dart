@@ -15,7 +15,7 @@ class Principal extends StatefulWidget {
 }
 
 class _PrincipalState extends State<Principal> {
-  TextEditingController _searchController = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   int paginaAtual = 0;
   String searchTyped = '';
 
@@ -54,7 +54,7 @@ class _PrincipalState extends State<Principal> {
           padding: EdgeInsets.zero,
           children: <Widget>[
             SizedBox(
-              height: 220,
+              height: MediaQuery.of(context).size.height * 0.34,
               child: DrawerHeader(
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
@@ -158,6 +158,7 @@ class _PrincipalState extends State<Principal> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
+              height: 40,
               color: const Color.fromARGB(255, 220, 226, 240),
               child: IconButton(
                 icon: const Icon(Icons.search),
@@ -166,9 +167,8 @@ class _PrincipalState extends State<Principal> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SearchResults(
-                            searchTyped:
-                                searchTyped), // Substitua SearchResults() pela sua página de resultados de busca
+                        builder: (context) =>
+                            SearchResults(searchTyped: searchTyped),
                       ),
                     );
                     setState(() {
@@ -196,7 +196,7 @@ class _PrincipalState extends State<Principal> {
                     decoration: const InputDecoration(
                       hintText: 'Pesquisar',
                       contentPadding: EdgeInsets.only(
-                          left: 20, top: 10, right: 20, bottom: 17),
+                          left: 20, top: 10, right: 20, bottom: 11),
                       border: InputBorder.none,
                     ),
                     onTap: () {
