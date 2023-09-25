@@ -1,0 +1,1 @@
+//essa calsse é para ser usada no "minha rede"
