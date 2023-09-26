@@ -2,6 +2,7 @@ import 'package:linkedin_project/widgets/conversa.dart';
 import 'package:linkedin_project/widgets/notificacao.dart';
 import 'package:linkedin_project/widgets/post.dart';
 import 'package:linkedin_project/widgets/user.dart';
+import 'package:linkedin_project/widgets/vaga.dart';
 
 Conversa conversa1 = Conversa(
   name: 'Clayton',
@@ -222,5 +223,36 @@ List<User> users = [
     image: "assets/images/imagem_post1.jpg",
     position: "Software Developer",
     conections: 66,
+  ),
+];
+
+List<Vaga> vagas = [
+  Vaga(
+    title: 'Uber Driver',
+    image: 'assets/images/vagas1.jpg',
+    company: 'Netflix',
+    local: 'São Paulo, São Paulo, Brasil (Híbrido)',
+    iconbool: false,
+  ),
+  Vaga(
+    title: 'Software architect',
+    image: 'assets/images/vagas2.jpg',
+    company: 'Google Inc',
+    local: 'Bauru, São Paulo, Brasil (Remoto)',
+    iconbool: false,
+  ),
+  Vaga(
+    title: 'Bomber helper',
+    image: 'assets/images/vagas3.jpg',
+    company: 'Isis',
+    local: 'Uzbequistão',
+    iconbool: false,
+  ),
+  Vaga(
+    title: 'Software Developer',
+    image: 'assets/images/vagas4.jpg',
+    company: 'FC Bayern München',
+    local: 'Berlim, Germany (Remoto)',
+    iconbool: false,
   ),
 ];
