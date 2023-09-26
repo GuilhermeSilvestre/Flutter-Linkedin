@@ -1,6 +1,7 @@
 import 'package:linkedin_project/widgets/conversa.dart';
 import 'package:linkedin_project/widgets/notificacao.dart';
 import 'package:linkedin_project/widgets/post.dart';
+import 'package:linkedin_project/widgets/user.dart';
 
 Conversa conversa1 = Conversa(
   name: 'Clayton',
@@ -158,5 +159,68 @@ List<Post> posts = [
     numDislikes: 6,
     numComments: 22,
     numShares: 35,
+  ),
+];
+
+List<User> users = [
+  User(
+    name: "João Silva",
+    image: "assets/images/imagem_amigo2.jpg",
+    position: "Teacher",
+    conections: 12,
+  ),
+  User(
+    name: "Robert Oswald",
+    image: "assets/images/imagem_amigo1.jpg",
+    position: "Software Engineer",
+    conections: 44,
+  ),
+  User(
+    name: "Michele Obama",
+    image: "assets/images/imagem_amigo3.jpg",
+    position: "Businessperson",
+    conections: 39,
+  ),
+  User(
+    name: "Dorival Junior",
+    image: "assets/images/imagem_amigo4.jpg",
+    position: "Chef",
+    conections: 77,
+  ),
+  User(
+    name: "Neymar",
+    image: "assets/images/imagem_amigo5.jpg",
+    position: "Actor",
+    conections: 5,
+  ),
+  User(
+    name: "Silvio Santos",
+    image: "assets/images/imagem_amigo6.jpg",
+    position: "Software Developer",
+    conections: 20,
+  ),
+  User(
+    name: "Joana Ferreira",
+    image: "assets/images/imagem_post4.jpg",
+    position: "Chef",
+    conections: 9,
+  ),
+  User(
+    name: "Setzer Gambler",
+    image: "assets/images/imagem_post3.jpg",
+    position: "Actor",
+    conections: 52,
+  ),
+  User(
+    name: "Eternal Oblivion",
+    image: "assets/images/imagem_post2.jpg",
+    position: "Software Developer",
+    conections: 82,
+  ),
+  User(
+    name: "Mark Zuckerberg",
+    image: "assets/images/imagem_post1.jpg",
+    position: "Software Developer",
+    conections: 66,
   ),
 ];

@@ -10,6 +10,8 @@ class Vagas extends StatefulWidget {
 class _VagasState extends State<Vagas> {
   @override
   Widget build(BuildContext context) {
-    return const Text('Vagas Widget');
+    return const Center(
+      child: Text('Falta fazer essa aba!'),
+    );
   }
 }
