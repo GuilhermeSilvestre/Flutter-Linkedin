@@ -1,16 +1,12 @@
-# linkedin_project
+# Linkedin Project
 
-A new Flutter project.
+Projeto para desenvolver uma cópia parecida com Linkedin
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/GuilhermeSilvestre/Flutter-Linkedin/assets/100291684/4f883711-6455-4424-adfb-53ea83a428f6)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/GuilhermeSilvestre/Flutter-Linkedin/assets/100291684/b7eb68df-6aca-4db1-9c71-638b3a477c1a)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://github.com/GuilhermeSilvestre/Flutter-Linkedin/assets/100291684/7687f057-bf4c-42a0-8063-d9bfd440a330)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/GuilhermeSilvestre/Flutter-Linkedin/assets/100291684/aaa561c5-f10c-4650-81cc-a7c428a588af)
